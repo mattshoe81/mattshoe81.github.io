@@ -1,0 +1,12 @@
+h2#experienceSkills+ul li {
+	margin-left:                   5%;
+	list-style-type:               square;
+}
+
+h2#experienceSkills+ul {
+	margin-top:                    0;
+}
+
+h2#experienceSkills {
+	margin-bottom:                 0;
+}

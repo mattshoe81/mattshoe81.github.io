@@ -1,0 +1,162 @@
+<!-- ///////////////////////////////////////////////
+    HTML and CSS written by Matthew Shoemaker
+    /////////////////////////////////////////// -->
+
+<!doctype html>
+<html>
+    <head>
+        <title>Matt S. - Projects</title>
+        <link type="text/css" rel="stylesheet" href="../portfolio.css">
+        <link type="text/css" rel="stylesheet" href="projects.css">
+        <link type="text/css" rel="stylesheet" media="screen and (max-width: 479px)" href="../portfolio-mobile.css">
+        <link type="text/css" rel="stylesheet" href="projects-mobile.css" media="screen and (max-width: 479px)">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="content">
+        
+        <!-- ------------------------Header Stuff-------------------------- -->
+            <header class="header">
+                <h1 id="shadow"></h1>
+                <h3 id="classOf20">Class of 2020<br>BS CSE</h3>
+                <h1 class="headerName"><br>Matthew<br>Shoemaker</h1>
+                <p class="headerName">CSE Undergraduate at The Ohio State University</p>
+                <header>                
+                    <img id="banner" src="../images/deskbanner2.jpg" alt="Header Banner">
+                </header>
+                
+                <nav>
+                    <ul>
+                        <li ><a href="../index.html">Home</a></li>
+                        <li><a href="../experience/experience.html">Experience</a></li>
+                        <li class="selected"><a href="">Projects</a></li>
+                        <li><a href="../resume/resume.html">Resume</a></li>
+                    </ul>
+                </nav>
+            </header>           
+        <!-- ------------------------Header Stuff-------------------------- -->
+            
+            
+        <!-- ----------------------Side Bar Desktop Stuff-------------------------- -->
+            <aside id="sidebar">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Proficient in Java</li>
+                    <li>Android App Development</li>
+                    <li>HTML/CSS</li>
+                    <li>XML Formatting and Processing</li>
+                    <li>Some SQLite</li>
+                    <li>Some MATLAB Experience</li>
+                </ul>    
+                
+                <h2>Projects</h2>
+                <ul>
+                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.sldcstudio.alane.delta_ether">
+                        ETH Delta Tracker</a></li>
+                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.sldcstudio.matts.grocerycalculatorlite">
+                        Grocery Calculator Pro</a></li>
+                    <li><a target="_blank" href="https://u.osu.edu/engr11827241spr2017groupc/home/">
+                        Engineering Project</a></li>
+                    <li><a href="">My Portfolio!</a></li>
+                    
+                </ul>           
+            
+                <h2>Additional Info:</h2>
+                    <ul>
+                        <li class="contact">shoemaker.277@osu.edu</li>
+                        <li class="contact"><a target="_blank" href="https://ecs-osu-csm.symplicity.com/profiles/matthew.shoemaker">
+                            OSU Career Profile</a></li>   
+                        <li class="contact"> 
+                            <a target="_blank" href="https://github.com/mattshoe81">
+                            GitHub Profile</a>                      
+                    </ul>
+            </aside>
+        <!-- ----------------------Side Bar Desktop Stuff-------------------------- -->
+            
+        <!-- ----------------------Side Bar Mobile Stuff-------------------------- -->
+            <aside id="sidebarMobile">  
+                <h2>Additional Info:</h2>
+                    <ul>
+                        <li class="contact">shoemaker.277@osu.edu</li>
+                        <li class="contact"><a target="_blank" href="https://ecs-osu-csm.symplicity.com/profiles/matthew.shoemaker">
+                            OSU Career Profile</a></li>      
+                        <li class="contact"> 
+                            <a target="_blank" href="https://github.com/mattshoe81">
+                            GitHub Profile</a>                   
+                    </ul>
+            </aside>
+        <!-- ----------------------Side Bar Mobile Stuff-------------------------- -->         
+            
+        <!-- --------------------------Content----------------------------- -->    
+            <div class="blogContent">
+                <article class="topOfList">
+	                <h2 class="padTop"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.sldcstudio.alane.delta_ether">ETH Delta Tracker</a></h2>
+	                
+	                <a id="logoLink" target="_blank" href="https://play.google.com/store/apps/details?id=com.sldcstudio.alane.delta_ether">
+	                   <img class="logo" src="../images/ethdelta.png" alt="ETH Delta Tracker Logo"></a>
+	                   
+	                <p class="padTop">
+	                    ETH Delta Tracker is an Android app that tracks the value of the
+	                    cryptocurrency <em>Ethereum</em> in real-time by querying
+	                    the API of several online sources and calculates the user's 
+	                    investment growth based on their initial investment.
+	                </p>
+	                
+	                <div class="projectTakeaways">
+	                   <h3>Takeaways:</h3>
+		                <ul>
+	                       <li>Utilized Web API's in program logic</li>
+	                       <li>Learned to parse JSON web responses</li>
+	                       <li>Experience with debugging multi-threaded operations</li>
+	                       <li>Troubleshooting concurrency issues</li>
+	                    </ul>
+	                </div>		                      
+	            </article>
+	                            
+                <section class="divider"></section>
+                
+	            <article>
+		            <h2><a target="_blank" href="https://play.google.com/store/apps/details?id=com.sldcstudio.alane.delta_ether">
+	                       Grocery Calculator Pro</a></h2>
+	                    
+	                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.sldcstudio.matts.grocerycalculatorlite">
+	                       <img class="logo" src="../images/groceryLogo.png" alt="Grocery Calculator Pro Logo"></a>
+	                       
+	                    <p class="padTop">
+	                        Grocery Calculator Pro is designed to keep track of the
+	                        user's expenses while at the grocery store by allowing 
+	                        the user to enter each expense and then calculates the 
+	                        total cost of their cart with tax included. Additional 
+	                        functionality to allow user to enter a shopping list and
+	                        check off items as they shop is currenty under development
+	                    </p>
+	                    
+	                    <div class="projectTakeaways">
+	                       <h3>Takeaways:</h3>
+	                        <ul>
+	                           <li>Utilized SQLite database to achieve data persistence</li>
+	                           <li>Learned to use Fragments in Android UI functionality</li>
+	                           <li>Experience writing XML files to specify app UI layout</li>
+	                        </ul>
+	                    </div>
+	            </article>
+            </div>
+        <!-- --------------------------Content----------------------------- -->   
+            
+        
+ 
+        
+        
+            
+        <!-- --------------------------Footer------------------------------ -->
+            <section class="divider" id="footerDivider"></section>
+            <footer>
+                This webpage was designed and written by Matthew Shoemaker<br>
+                Banner Image Copyright &copy; 2016 Pavanatma College Murickassery 
+            </footer>
+        <!-- --------------------------Footer------------------------------ -->
+        </div>   
+    </body>
+</html>
+    

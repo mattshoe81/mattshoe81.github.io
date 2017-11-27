@@ -1,0 +1,177 @@
+#shadow {
+	height:                        1.5px;
+	background-color:              gray;
+	width:                         100%;
+	margin:                        auto;
+	padding:                       0px;
+	margin-bottom:                 0;
+	margin-top:                    40px;
+	display:                       block;
+}
+
+body {
+	font-family:                   'Raleway', Helvetica, sans-seriff;
+	background:                    silver;
+	font-size:                     normal;
+	color:                         #455672;	
+}
+
+body a {
+	text-decoration:               none;
+	color:                         #455672;
+}
+
+.content {
+	background:                    #fffff0;
+	width:                         85%;
+	margin:                        auto;
+	margin-top:                    0;
+	margin-bottom:                 50px;
+	display:                       block;
+}
+
+#classOf20 {
+	float:                         right;
+	margin-right:                  5%;
+	text-align:                    right;
+}
+
+h1.headerName {
+	margin-top:                    5px;
+	margin-left:                   15px;
+	margin-bottom:                 0px;
+	font-weight:                   bold;
+}
+
+p.headerName {
+	margin:                        5px 15px 10px 15px;
+	line-height:                   90%;
+	font-weight:                   bold;
+	font-size:                     80%;
+}
+
+img#banner{ 
+	width:                         100%;
+	margin:                        0px;
+	display:                       block;
+}
+
+nav {
+    background-color:               #f08656;
+    width:                          100%;
+}
+nav ul {
+    margin:                         0px;
+    list-style-type:                none;
+    padding:                        5px 0px 5px 0px;
+}
+nav ul li {
+    display:                        inline;
+    padding:                        5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color:                          #fffff0;
+    border-bottom:                  none;
+    font-weight:                    bold;
+    text-decoration:                none;
+}
+
+li.selected {
+	background-color:               #d36c3f;
+} 
+
+footer {
+	font-size:                      70%;
+    font-style:                     italic;
+    text-align:                     center;
+    padding:                        10px 15px 10px 15px;
+    clear:                          both;
+}
+
+article {
+	width:                         70%;
+}
+
+article h2 {
+	margin-left:                   25px;
+	margin-bottom:                 0px;
+}
+
+article p {
+	width:                         85%;
+	margin-left:                   40px;
+	margin-top:                    0px;
+	margin-botttom:                5px;	
+}
+
+#sidebar {
+	float:                         right;
+	width:                         25%;
+	height:                        100%;
+	font-size:                     small;	
+    word-wrap:                     break-word;
+    border-left:                   1px solid;
+    border-color:                  #455672;
+    border-bottom:                 1px solid;
+    padding:                       15px;
+    padding-top:                   15px;
+    margin-left:                   15px;
+    margin-bottom:                 40px;
+}
+
+#sidebarMobile {
+    display:                        none;
+}
+
+aside h2 {
+	margin:                        0;
+	margin-top:                    10px;
+}
+
+aside ul {
+	margin:                        0;
+	list-style-type:               square;
+    list-style-position:           inside;
+    padding-left:                  5%;
+}
+
+aside li.contact {
+	margin-top:                    0;
+	margin-bottom:                 0;
+	font-style:                    italic;
+}
+
+aside .contact a {
+	color:                         #d36c3f;
+	font-style:                    italic;
+	text-decoration:               none;
+}
+
+.padTop {
+	padding-top:                   25px;
+}
+
+.divider {
+	height:                        1.5px;
+	width:                         95%;
+	background-color:              gray;
+	margin:                        auto;
+	margin-top:                    20px;
+	margin-bottom:                 20px;
+}
+
+#footerDivider {
+	height:                        1.5px;
+	width:                         95%;
+    margin-top:                    60px;
+    margin-bottom:                 0px;
+    clear:                         both;
+}
+
+#sideBarMobileDivider {
+	display:                       none;
+}
+
+
+

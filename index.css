@@ -1,0 +1,17 @@
+p#welcome {
+    clear:                         left;
+}
+
+article p#intro {
+    text-indent:                   5%;
+    margin-left:                   25px;
+}
+
+#selfie {
+    width:                         30%;
+    margin:                        3%;
+    margin-left:                   8%;
+    margin-bottom:                 0;
+    float:                         left;
+    padding:                       0;
+}

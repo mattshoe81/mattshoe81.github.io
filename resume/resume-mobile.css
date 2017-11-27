@@ -1,0 +1,7 @@
+.blogContent {
+	font-size:                         70%;
+}
+
+#sidebar, #sidebarMobile, .divider#sideBarMobileDivider {
+	display:                           none;
+}

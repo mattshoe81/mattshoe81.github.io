@@ -1,0 +1,28 @@
+.logo {    
+    margin:                        3%;
+    margin-left:                   8%;
+    margin-bottom:                 0px;
+    float:                         left;
+    padding:                       0;
+    transition:                    transform 2s;
+}
+
+.projectTakeaways {
+    clear:                         left;
+    margin-left:                   10%;
+    padding:                       0;
+}
+
+.projectTakeaways > h3 {
+    font-size:                     110%;
+    margin-bottom:                 5px;
+    padding-top:                   10px;
+}
+
+.projectTakeaways > ul, .projectTakeaways > ul > li {  
+	margin:                        0;
+    list-style-type:               square;
+    list-style-position:           inside;
+    padding-top:                   0;
+    padding-left:                  4%;
+}

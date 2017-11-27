@@ -1,0 +1,16 @@
+
+
+header, footer, sidebar, sidebarMobile, #printButton {
+	display:                           none;
+}
+
+@page {
+    size:                              auto;
+    margin:                            0px;
+}
+
+.blogContent {
+	margin-top:                        30px;
+	color:                             black;
+	font-size:                         92%;
+}

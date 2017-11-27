@@ -1,0 +1,46 @@
+#sidebar {
+	display:                           none;
+}
+
+#sidebarMobile {
+	display:                           none;
+}
+
+div.blogContent {
+	padding-top:                       20px;
+	margin-left:                       10%;
+	margin-right:                      10%;	
+}
+
+.blogContent h3, h2, h1, p, ul {
+	margin:                            0;
+}
+
+.blogContent h2 {
+    margin-top:                        10px;
+}
+
+.blogContent ul {
+	margin-bottom:                     10px;
+}
+
+.blogContent h3 {
+	font-size:                         90%;
+}
+
+#sidebar {
+	display:                           none;
+}
+
+#resumeHeader {
+	margin:                            auto;
+	text-align:                        center;
+}
+
+#printButton {
+	margin-top:                        15px;
+	margin-right:                      25px;
+	margin-bottom:                     0px;
+	text-align:                        right;
+	text-decoration:                   underline;
+}

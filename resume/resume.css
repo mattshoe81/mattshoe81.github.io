@@ -44,3 +44,14 @@ div.blogContent {
 	text-align:                        right;
 	text-decoration:                   underline;
 }
+
+
+@media only screen and (max-width:480px) {
+    .blogContent {
+        font-size:                         70%;
+    }
+    
+    #sidebar, #sidebarMobile, .divider#sideBarMobileDivider {
+        display:                           none;
+    }
+}

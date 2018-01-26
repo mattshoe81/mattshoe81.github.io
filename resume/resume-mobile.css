@@ -1,7 +1,9 @@
-.blogContent {
-	font-size:                         70%;
-}
-
-#sidebar, #sidebarMobile, .divider#sideBarMobileDivider {
-	display:                           none;
+@media only screen and (max-width:480px) {
+	.blogContent {
+		font-size:                         70%;
+	}
+	
+	#sidebar, #sidebarMobile, .divider#sideBarMobileDivider {
+		display:                           none;
+	}
 }

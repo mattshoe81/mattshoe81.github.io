@@ -1,3 +1,7 @@
+body {
+	font-size:                         80%;
+}
+
 #sidebar {
 	display:                           none;
 }
@@ -24,8 +28,8 @@ div.blogContent {
 	margin-bottom:                     10px;
 }
 
-.blogContent h3 {
-	font-size:                         90%;
+.blogContent {
+	font-size:                         130%;
 }
 
 #sidebar {
@@ -35,6 +39,14 @@ div.blogContent {
 #resumeHeader {
 	margin:                            auto;
 	text-align:                        center;
+}
+
+#contactInfo {
+	padding:                           0;
+	margin:                            0;
+	margin-top:                        0px;
+	margin-bottom:                     5px;
+	font-size:                         70%;
 }
 
 #printButton {
